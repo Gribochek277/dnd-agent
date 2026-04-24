@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 6405c656b253fa2afc0f56b275026db0f6f0a0c1
+date: 2026-04-24T05:37:56+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+chore: implement task 1.0 test infrastructure
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
