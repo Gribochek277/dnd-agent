@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 8a9c27ef08d7a95d3c8d42d002b622a4d69ca3ab
+date: 2026-04-25T23:31:21+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: implement Task 1.8 — Rest System
+- Add RestType enum and RestResult record
+- Add RestService with short/long rest logic, HD spending, HP recovery
+- Add /rest and /camp CLI commands
+- Add unit tests for RestService (20 tests) and CLI handlers (12 tests)
+- Handle edge cases: negative HD, over-spending, encounters during rest
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
