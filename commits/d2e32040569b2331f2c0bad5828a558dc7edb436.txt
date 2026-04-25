@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: d2e32040569b2331f2c0bad5828a558dc7edb436
+date: 2026-04-26T00:51:45+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix(cli): handle non-interactive mode and malformed markup
+- Catch InvalidOperationException when running in non-interactive mode
+- Wrap AnsiConsole.MarkupLine to fallback on plain Console.WriteLine
+- Remove unused placeholder Class1.cs
+
+This allows the CLI to fail gracefully without crashing.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
