@@ -1,0 +1,19 @@
+repository: serhii/dnd-agent
+commit: 5db397e8ceb494fd29cd3106c12fbdf95938603f
+date: 2026-04-25T23:40:37+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat(intelligence): implement LLM integration with Ollama
+Add Microsoft.Extensions.AI.Ollama for local model support.
+Implement IntentParser, NarrativeGenerator, GmJudgment, and ActionProcessor
+to coordinate free text action processing with LLM + Rules Engine.
+Add 5 unit tests with mocked dependencies.
+
+Closes Task 2.1
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
