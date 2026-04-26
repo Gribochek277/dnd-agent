@@ -1,0 +1,23 @@
+repository: serhii/dnd-agent
+commit: d2adfcf129fda57fcb3625abdf018d15c3290c0b
+date: 2026-04-26T07:14:44+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat(intelligence): add GmJudgment unit tests (Task 2.1.5)
+Add 47 unit tests for GmJudgment covering:
+- Successful judgments with all ability types and DC ranges
+- Rejected actions (flight, mind-reading, underwater)
+- Extreme DC values (5, 30, 40)
+- LLM failure fallbacks (null response, exceptions)
+- DTO mapping edge cases (invalid/empty ability/skill strings)
+- Context building verification
+- All skill types and cancellation handling
+
+Also add E2E.Tests project to solution and DiceService.ResetSeed().
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
