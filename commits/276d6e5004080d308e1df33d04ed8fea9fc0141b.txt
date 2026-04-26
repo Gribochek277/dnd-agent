@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 276d6e5004080d308e1df33d04ed8fea9fc0141b
+date: 2026-04-26T19:37:42+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat(cli): implement Task 2.2 — Character Architect with form-based creation
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
