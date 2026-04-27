@@ -1,0 +1,22 @@
+repository: serhii/dnd-agent
+commit: f85fbaf0d39f19d8560468bb4fb831bb5747554f
+date: 2026-04-27T16:00:42+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat(cli): add SessionContext for loaded character state + fix CLI bugs
+- Introduce SessionContext to persist loaded character across commands
+  so /stats and /hp reflect the explicitly loaded character, not just
+  the latest DB entry. Load by index sets session; listing does not.
+- Fix NewCommandHandler duplicate ✓ messages on field updates.
+- Fix StatsCommandHandler always showing hardcoded demo character.
+- Fix HpCommandHandler always showing hardcoded demo entities.
+- Wire shared dependencies (CharacterRepository, DiceService, etc.) in
+  Program.cs so all handlers use the same DB connection and services.
+- Add 6 new tests for session context behavior across Load/Stats/Hp.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
