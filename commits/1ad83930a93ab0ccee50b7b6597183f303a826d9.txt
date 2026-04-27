@@ -1,0 +1,21 @@
+repository: serhii/dnd-agent
+commit: 1ad83930a93ab0ccee50b7b6597183f303a826d9
+date: 2026-04-28T00:15:50+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat(core): implement Task 2.3 — Inventory System with encumbrance rules
+Add item management system with weight limits and D&D 5e encumbrance:
+- InventoryItem model with quantity and total weight tracking
+- EncumbranceResult model + enum (Unencumbered/Medium/Heavy/Overloaded)
+- IInventoryService/InventoryService with add/remove/find/calculate operations
+- CLI handlers: /inv (display), /pickup (add items), /drop (remove items)
+- Encumbrance thresholds: carry=STR×5, medium=2×, heavy=3× (D&D 5e optional rules)
+- Item stacking via quantity tracking in inventory entries
+- 33 unit tests covering boundary conditions and edge cases
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
