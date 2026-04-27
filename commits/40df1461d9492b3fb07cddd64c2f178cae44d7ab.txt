@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 40df1461d9492b3fb07cddd64c2f178cae44d7ab
+date: 2026-04-27T20:21:10+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat(core): enhance Character Architect with ability score suggestions
+Add point-buy optimizer that suggests optimal ability scores based on
+race/class primary abilities and racial bonuses. New /suggest CLI command,
+'suggest'/'apply' commands in character creation form, and full test suite.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
