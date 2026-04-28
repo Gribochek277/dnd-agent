@@ -1,0 +1,23 @@
+repository: serhii/dnd-agent
+commit: eef1d974d6897c0f188798eb8de86bb87dcc9672
+date: 2026-04-28T17:42:21+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat(cli,intelligence): fix CLI bugs + implement Task 2.4 adventure scaffolding
+Fix CommandDispatcher multi-word command matching and add fuzzy prefix
+matching for typos. Add /move command for direction-based navigation.
+Update /help with organized sections. Fix Spectre.Console crashes from
+unescaped brackets in MarkupLine calls ([Begin Session], map output).
+
+Scaffold Task 2.4: AdventureGenerator with LLM-based JSON generation,
+TextMapRenderer for ASCII dungeon maps, and CLI handlers (new campaign,
+start, encounters, map). Refactor CLI handlers to use IRepository<T>
+interfaces per AGENTS.md conventions. Convert integration tests to unit
+tests with mocks. Add 199 CLI handler tests + 49 adventure generator tests.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
