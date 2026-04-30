@@ -1,0 +1,20 @@
+repository: serhii/dnd-agent
+commit: 22eaaf003a2f1aec0ca4068be8070c62e018e7be
+date: 2026-04-30T21:33:20+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat(rules,cli): implement Task 4.2 — Full D&D 5e Rules engine with proficiency, advantage/disadvantage, saving throws, spellcasting, concentration, cover, environmental rules
+- Added CastSpell and SavingThrow to ActionType enum
+- Created Dnd5eRules implementing IRulesEngine with 97 tests
+- Created spell data layer: SpellLists (~30 spells), SpellRepository, SpellSlotTracker, ConcentrationState
+- Added CastSpellCommandHandler (/cast) and RulesCommandHandler (/rules) for switching engines
+- Refactored all command handlers to use IConsoleWriter (Status, HP, Attack, Help, Stats, Conditions)
+- Fixed CLI unit tests and E2E tests to match new output formats
+- Registered Dnd5eRules in DI alongside SimplifiedRules in Program.cs
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
