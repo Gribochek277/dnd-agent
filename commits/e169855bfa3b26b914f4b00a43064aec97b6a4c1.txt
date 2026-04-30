@@ -1,0 +1,14 @@
+repository: serhii/dnd-agent
+commit: e169855bfa3b26b914f4b00a43064aec97b6a4c1
+date: 2026-05-01T02:31:56+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+chore: snapshot current state before llama.cpp OpenAI integration
+All modified source files, tests, CLI commands, Historian module, and task specs.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
