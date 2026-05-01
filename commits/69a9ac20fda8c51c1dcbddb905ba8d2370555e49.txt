@@ -1,0 +1,17 @@
+repository: serhii/dnd-agent
+commit: 69a9ac20fda8c51c1dcbddb905ba8d2370555e49
+date: 2026-05-02T01:35:46+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: integrate Phase 6 services into game loop
+- ContextTracker records turn output, auto-compacts at token threshold
+- ReadingAheadService preloads encounters when buffer < 2
+- Auto-wrap-up triggers on EndSession state, appends to campaign log
+- 1,308 tests pass, format clean
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
