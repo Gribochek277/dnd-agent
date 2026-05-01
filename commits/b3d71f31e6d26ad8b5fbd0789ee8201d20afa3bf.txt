@@ -1,0 +1,19 @@
+repository: serhii/dnd-agent
+commit: b3d71f31e6d26ad8b5fbd0789ee8201d20afa3bf
+date: 2026-05-02T02:14:31+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: address Phase 6 MEDIUM severity review findings
+- Improve markdown escaping (escape *, _, [], #, `, > in addition to |)
+- Improve frontmatter escaping (add backslash, quotes, handle newlines)
+- Fix off-by-one in CampaignLogService.LoadSessionAsync (use header length)
+- Extract duplicate log formatting to ContextHelper.FormatLogsText
+- Suppress unused difficulty parameter warning in CreateAsync
+- All 1,300 tests pass, format clean
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
