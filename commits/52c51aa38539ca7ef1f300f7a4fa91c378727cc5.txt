@@ -1,0 +1,17 @@
+repository: serhii/dnd-agent
+commit: 52c51aa38539ca7ef1f300f7a4fa91c378727cc5
+date: 2026-05-01T05:04:25+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+Task 5.3: Add LLM Auto-Play Agent script
+Create tools/auto-play-llm.sh that runs the CLI in script mode and uses
+an LLM (Ollama or OpenAI-compatible) to decide each game command based
+on accumulated output. Uses named pipes (FIFO) for bidirectional
+communication, saves transcripts, and reports summary at end of run.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
