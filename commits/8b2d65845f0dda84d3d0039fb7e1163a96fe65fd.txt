@@ -1,0 +1,15 @@
+repository: serhii/dnd-agent
+commit: 8b2d65845f0dda84d3d0039fb7e1163a96fe65fd
+date: 2026-05-01T03:38:27+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix(cli): escape Spectre.Console markup in RenderDecisionPoint to prevent crash on LLM text with brackets
+- Use Markup.Escape() for user-generated content (location, narrative, options, features, exits)
+- Improve error message when free-text action fails without character/LLM
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
