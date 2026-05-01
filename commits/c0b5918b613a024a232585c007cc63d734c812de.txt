@@ -1,0 +1,19 @@
+repository: serhii/dnd-agent
+commit: c0b5918b613a024a232585c007cc63d734c812de
+date: 2026-05-01T03:11:10+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat(intelligence): add OpenAI-compatible LLM client for llama.cpp integration
+- Add OpenAiLlmClient with direct HTTP calls to OpenAI-compatible API
+- Add OpenAiLlmClientFactory with OPENAI_BASE_URL/OPENAI_MODEL_NAME env vars
+- Program.cs selects backend via LLM_BACKEND env var (ollama|openai, default: ollama)
+- Update Microsoft.Extensions.AI.Ollama to 9.7.0-preview.1.25356.2
+- 14 integration tests with mocked HTTP handler covering all code paths
+- OpenAiLlmClient coverage: 78.4% (from 0%), Factory: 100%
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
