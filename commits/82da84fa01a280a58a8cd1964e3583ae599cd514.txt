@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 82da84fa01a280a58a8cd1964e3583ae599cd514
+date: 2026-05-01T15:12:44+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: add --verbose support to auto-play.sh, fix FIFO deadlock in auto-play-llm.sh
+- auto-play.sh: accept --verbose flag, pass through to CLI
+- auto-play-llm.sh: use file descriptors (exec 3/4) for FIFOs to prevent deadlock
+- auto-play-llm.sh: default to gemma4:latest (faster, produces text responses)
+- auto-play-llm.sh: increase num_predict to 128 for longer responses
+- auto-play-llm.sh: add proper fd cleanup in trap handler
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
