@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 836b5f99714a5b7a415cafa2055e1e299a1eaa48
+date: 2026-05-01T18:51:20+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: Resolve BUG-011 through BUG-015 from auto-play testing
+- BUG-015 (critical): Attack command now uses loaded character from context instead of hardcoded 'Thorin Ironforge'. Removed duplicate attack/damage rolls from rules engine. Fixed contradictory HIT/MISS messages and damage on MISS.
+- BUG-014 (medium): Tables now render as clean plain text in script mode instead of being suppressed. Added ANSI escape code stripping for table output.
+- BUG-013 (high): Interactive commands handled properly in script mode with stdin consumption.
+- BUG-012 (medium): Campaign name duplication fixed - 'Dungeon Dungeon' now becomes 'Dungeon Depths', 'Forest Forest' becomes 'Forest Wilds', etc.
+- BUG-011 (low): Fixed 'Hit Diedice' typo to 'Hit Dice' in short rest narrative.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
