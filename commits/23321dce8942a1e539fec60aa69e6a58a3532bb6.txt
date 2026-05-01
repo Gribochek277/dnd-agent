@@ -1,0 +1,21 @@
+repository: serhii/dnd-agent
+commit: 23321dce8942a1e539fec60aa69e6a58a3532bb6
+date: 2026-05-02T02:00:51+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: address Phase 6 code review findings (HIGH severity)
+- Replace 7 GetAwaiter().GetResult() with proper await
+- Fix session counter bug in CampaignSummaryService (now increments)
+- Remove unreachable dead code in SummaryCommandHandler
+- Add SemaphoreSlim thread-safety to ReadingAheadService buffer
+- Move MockLlmClient out of production code
+- Fix Escape method in CampaignLogCommandHandler (was no-op)
+- Clean up misleading null-conditional operators
+- All 1,308 tests pass, format clean
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
