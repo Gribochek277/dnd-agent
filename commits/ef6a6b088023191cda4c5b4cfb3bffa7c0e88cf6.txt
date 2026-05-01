@@ -1,0 +1,21 @@
+repository: serhii/dnd-agent
+commit: ef6a6b088023191cda4c5b4cfb3bffa7c0e88cf6
+date: 2026-05-02T01:22:03+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: complete Task 6.5 - Campaign Management CLI commands
+Implement /summary, /campaign-log, /resume, /wrap-up commands for Phase 6:
+- SummaryCommandHandler: Shows campaign summary from ICampaignSummaryService
+- CampaignLogCommandHandler: Displays master campaign log with TOC
+- ResumeCommandHandler: Restores campaign state from summary
+- WrapUpCommandHandler: Generates session wrap-up, appends to log, updates summary
+- Added 12 new CLI handler tests (all passing)
+- Updated /help output with new commands
+- All 1,300 tests pass, 102 edge cases pass, format clean
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
