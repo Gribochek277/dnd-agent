@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: bb3b5997f5d5d4aaa5e2d1d95a258af76b3980c8
+date: 2026-05-01T04:49:05+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+Task 5.2: Add Auto-Play Bash Harness for scenario testing
+- tools/auto-play.sh: Bash script that feeds scenario files to CLI in --script mode
+- tools/scenarios/: Three test scenarios (basic, character creation, combat flow)
+- tools/results/: Timestamped log/err output directory
+- Fix: Unbalanced markup tag in HpCommandHandler that crashed /hp command
+- Scenario format: one command per line, # for comments, blank lines for Enter
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
