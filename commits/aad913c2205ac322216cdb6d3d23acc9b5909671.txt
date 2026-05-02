@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: aad913c2205ac322216cdb6d3d23acc9b5909671
+date: 2026-05-02T23:43:32Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/tool-call-indication' into 'master'
+fix: show tool call indication in CLI output
+
+See merge request serhii/dnd-agent!3
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
