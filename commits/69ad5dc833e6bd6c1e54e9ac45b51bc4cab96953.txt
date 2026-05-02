@@ -1,0 +1,24 @@
+repository: serhii/dnd-agent
+commit: 69ad5dc833e6bd6c1e54e9ac45b51bc4cab96953
+date: 2026-05-03T02:37:35+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: show tool call indication in CLI output
+Add ToolCallStartEvent that displays "Calling tool: {name} with params: {params}"
+before each tool execution in both streaming and non-streaming modes.
+
+Changes:
+- Add ToolCallStartEvent to StreamEvent.cs
+- Convert RunAsync to IAsyncEnumerable, yield tool call start/end events in ExecuteLoopAsync
+- Add ToolCallStartEvent yield in ExecuteStreamingLoopAsync before tool execution
+- Handle ToolCallStartEvent in CLI interactive and single-shot modes
+- Fix broken Spectre markup in ToolCallEndEvent result display
+- Fix markup injection in text delta rendering (use new Text())
+- Yield ErrorEvent instead of throwing on max tool iterations
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
