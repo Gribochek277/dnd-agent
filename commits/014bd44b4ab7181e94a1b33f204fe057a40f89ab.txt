@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 014bd44b4ab7181e94a1b33f204fe057a40f89ab
+date: 2026-05-02T23:06:37+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+chore: remove old project structure, keep new architecture
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
