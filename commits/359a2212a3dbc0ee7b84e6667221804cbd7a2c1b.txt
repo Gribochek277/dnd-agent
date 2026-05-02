@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 359a2212a3dbc0ee7b84e6667221804cbd7a2c1b
+date: 2026-05-02T22:19:51Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: D&D Dungeon Master plugin with tool calling infrastructure
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
