@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 6fbfcef104fc896020eea623d655b3298cc5efa3
+date: 2026-05-02T22:19:52Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/dnd-dm-plugin' into 'master'
+feat: D&D Dungeon Master plugin with tool calling infrastructure
+
+See merge request serhii/dnd-agent!1
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
