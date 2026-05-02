@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: e5f04c36a3447fc66574ae742e811a111827f83e
+date: 2026-05-02T22:58:25Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: highlight tool calls in CLI with Spectre.Console visualization
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
