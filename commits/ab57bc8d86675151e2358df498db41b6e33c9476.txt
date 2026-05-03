@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: ab57bc8d86675151e2358df498db41b6e33c9476
+date: 2026-05-03T06:45:48+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: escape untrusted content in Spectre.Console markup and add debug logging
+- Add WriteMarkupDebug helper to log raw content and special character positions before markup rendering
+- Escape all untrusted content (tool names, arguments, results, error messages) using Markup.Escape()
+- Switch to new Text() widget for raw LLM/tool output that should not be parsed as markup
+- Add try-catch for InvalidOperationException around event processing loops
+- Truncate debug output to 500 chars to prevent stderr flooding
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
