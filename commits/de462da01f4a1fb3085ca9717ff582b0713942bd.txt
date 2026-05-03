@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: de462da01f4a1fb3085ca9717ff582b0713942bd
+date: 2026-05-03T14:43:29Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/tool-default-values' into 'master'
+fix: Apply DefaultValue from tool schema for omitted parameters
+
+See merge request serhii/dnd-agent!14
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
