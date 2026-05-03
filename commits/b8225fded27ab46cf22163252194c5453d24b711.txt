@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: b8225fded27ab46cf22163252194c5453d24b711
+date: 2026-05-03T21:59:38Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/campaign-character-persistence' into 'master'
+fix: validate characters on campaign start to prevent empty key storage
+
+See merge request serhii/dnd-agent!18
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
