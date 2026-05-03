@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 9211943ea6af9c6da35ad781ceb90f27876be121
+date: 2026-05-03T06:04:32+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: remove double-escaping in MarkupLineInterpolated calls
+MarkupLineInterpolated auto-escapes string interpolation holes, so manually
+calling Markup.Escape() on those values caused double-escaping ([ rendered
+as [[]). Removed manual Markup.Escape() from MarkupLineInterpolated usages.
+Manual markup methods (MarkupLine, Table.AddRow, PanelHeader) correctly
+retain Markup.Escape() on dynamic content.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
