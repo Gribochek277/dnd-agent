@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: f58ff3e9b01b7ef0311e06d26ef9b8f3d03ff800
+date: 2026-05-03T15:13:38Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Fix: Tool call infinite loop on campaign creation
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
