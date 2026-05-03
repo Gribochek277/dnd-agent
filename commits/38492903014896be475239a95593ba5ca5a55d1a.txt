@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 38492903014896be475239a95593ba5ca5a55d1a
+date: 2026-05-03T21:13:53Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/realtime-streaming-thinking' into 'master'
+feat: real-time token streaming with thinking blocks visible
+
+See merge request serhii/dnd-agent!17
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
