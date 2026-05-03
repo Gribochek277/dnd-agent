@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: c10ed0d11c2264ce2ca3a2315562c8b238959623
+date: 2026-05-03T14:43:29Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: Apply DefaultValue from tool schema for omitted parameters
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
