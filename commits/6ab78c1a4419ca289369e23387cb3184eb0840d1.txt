@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 6ab78c1a4419ca289369e23387cb3184eb0840d1
+date: 2026-05-03T17:22:17Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: Handle JsonElement in ParseArguments to avoid IConvertible error
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
