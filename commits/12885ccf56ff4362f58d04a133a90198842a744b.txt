@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 12885ccf56ff4362f58d04a133a90198842a744b
+date: 2026-05-03T06:17:48Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: align tool handler lambda params with JSON schema keys
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
