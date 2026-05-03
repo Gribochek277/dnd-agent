@@ -1,0 +1,21 @@
+repository: serhii/dnd-agent
+commit: be59c2fc2d1de33c376543df5498dbf697855832
+date: 2026-05-03T03:51:58+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: print "assistant: " only once per turn instead of after every tool call
+The REPL loop was printing "assistant: " in the ToolCallEndEvent handler,
+causing repeated prompts during internal agent tool-call loops. When the
+LLM called a tool without required params, got an error, and looped, each
+iteration printed another "assistant: " making it look like the assistant
+was repeating the same question.
+
+Fix: Add assistantPrinted flag — print label only on first TextDeltaEvent
+of each turn, skip in ToolCallEndEvent handler, reset on DoneEvent/ErrorEvent.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
