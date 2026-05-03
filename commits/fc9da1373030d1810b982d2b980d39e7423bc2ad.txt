@@ -1,0 +1,19 @@
+repository: serhii/dnd-agent
+commit: fc9da1373030d1810b982d2b980d39e7423bc2ad
+date: 2026-05-03T05:04:10+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: add break in streaming agent loop after DoneEvent
+- Add break in ExecuteStreamingLoopAsync to exit while loop on
+  normal completion (no tool calls), matching non-streaming path
+- Suppress provider DoneEvent in streaming foreach — agent yields
+  its own DoneEvent after middleware processing (no double-yield)
+- Guard ErrorEvent behind iterations check (both streaming and
+  non-streaming paths) to prevent spurious error on success
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
