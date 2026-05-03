@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 8c06119e00473a0573c4d6b803500b02ed4a8969
+date: 2026-05-03T04:52:23Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/escape-markup-tool-calls' into 'master'
+fix: escape markup in tool call rendering to prevent Spectre.Console crash
+
+See merge request serhii/dnd-agent!11
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
