@@ -1,0 +1,17 @@
+repository: serhii/dnd-agent
+commit: 37347a6e082548bf1bfdad65bb6e295a17f3bd42
+date: 2026-05-03T05:27:57+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: escape dynamic content in Spectre.Console markup methods
+- Wrap Table.AddRow() values with Markup.Escape() to prevent markup parsing crashes
+- Harden ToolCallStartEvent args display with Markup.Escape on keys/values
+- Remove redundant Markup.Escape on MarkupLineInterpolated interpolated values
+- Remove unnecessary Markup.Escape on WriteLine (plain text output)
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
