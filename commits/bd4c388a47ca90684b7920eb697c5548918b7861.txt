@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: bd4c388a47ca90684b7920eb697c5548918b7861
+date: 2026-05-03T17:22:02Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: add comprehensive unit tests with >80% coverage across all modules
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
