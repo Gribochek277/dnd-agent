@@ -1,0 +1,19 @@
+repository: serhii/dnd-agent
+commit: 0598dc2f0c65594b43884ac0f032cbcc03720522
+date: 2026-05-04T00:42:35+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: validate characters on campaign start to prevent empty key storage
+- Add case-insensitive JSON deserialization for character properties
+- Validate character names are non-empty before storing
+- Detect and skip duplicate character names
+- Return clear error when no valid characters provided
+- Move EnsureCampaignDir before character processing
+- Update tool schema with PascalCase property names
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
