@@ -1,0 +1,17 @@
+repository: serhii/dnd-agent
+commit: 535e3093c942cc4e50fd889198d0f9775c1427de
+date: 2026-05-03T04:07:36+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: separate styled label from plain-text result in ToolCallEndEvent handler
+MarkupLineInterpolated was parsing the tool's result text as Spectre.Console
+markup, causing crashes when the result contained newlines or characters
+that looked like markup tags. Split into MarkupLine for the styled label
+and WriteLine for the raw result text.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
