@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: d05cca34cf2c03586e438fc354f89b8f9638f8ac
+date: 2026-05-03T02:10:01Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/streaming-loop-missing-break' into 'master'
+fix: add break in streaming agent loop after DoneEvent
+
+See merge request serhii/dnd-agent!6
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
