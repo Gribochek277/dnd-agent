@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: f11659ad26a3baa17af1a9219bd69755ab4d2163
+date: 2026-05-03T23:27:42Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/loading-spinner' into 'master'
+feat(cli): add loading spinner while waiting for LLM response
+
+See merge request serhii/dnd-agent!20
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
