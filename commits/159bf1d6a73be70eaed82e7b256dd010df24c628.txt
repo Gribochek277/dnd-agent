@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 159bf1d6a73be70eaed82e7b256dd010df24c628
+date: 2026-05-03T17:22:17Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/jsonelement-tool-args' into 'master'
+fix: Handle JsonElement in ParseArguments to avoid IConvertible error
+
+See merge request serhii/dnd-agent!13
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
