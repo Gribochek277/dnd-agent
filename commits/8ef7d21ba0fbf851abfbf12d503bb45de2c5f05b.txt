@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 8ef7d21ba0fbf851abfbf12d503bb45de2c5f05b
+date: 2026-05-03T00:32:26Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: fall back to non-streaming when tools present (llama.cpp incompatibility)
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
