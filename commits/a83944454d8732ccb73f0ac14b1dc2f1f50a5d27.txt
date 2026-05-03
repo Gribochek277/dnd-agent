@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: a83944454d8732ccb73f0ac14b1dc2f1f50a5d27
+date: 2026-05-03T00:32:26Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/streaming-400' into 'master'
+fix: fall back to non-streaming when tools present (llama.cpp incompatibility)
+
+See merge request serhii/dnd-agent!4
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
