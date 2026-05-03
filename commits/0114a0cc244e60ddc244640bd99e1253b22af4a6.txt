@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 0114a0cc244e60ddc244640bd99e1253b22af4a6
+date: 2026-05-03T21:13:53Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: real-time token streaming with thinking blocks visible
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
