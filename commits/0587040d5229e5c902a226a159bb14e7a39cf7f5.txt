@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 0587040d5229e5c902a226a159bb14e7a39cf7f5
+date: 2026-05-04T02:02:04+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat(cli): add loading spinner while waiting for LLM response
+- Add LoadingSpinner.cs: raw console cursor control, thread-safe, IDisposable
+- Update StreamingRenderer.cs: integrate spinner, restarts after tool calls
+- Update Program.cs: wire spinner lifecycle into CLI flow
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
