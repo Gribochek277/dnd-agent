@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: e61586e51913022c617acb78efc3068f0a2cf488
+date: 2026-05-05T02:41:20Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'chore/remove-binary-pdfs-zips' into 'master'
+chore: remove binary PDF and ZIP files from repository
+
+See merge request serhii/dnd-agent!23
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
