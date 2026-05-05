@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 630c1b79455a936b8bae4e7ce283e95d941d8a21
+date: 2026-05-05T00:16:50Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/pdf-text-extraction-engine' into 'master'
+feat: add PDF text extraction engine (PH0-T1)
+
+See merge request serhii/dnd-agent!21
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
