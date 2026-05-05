@@ -1,0 +1,30 @@
+repository: serhii/dnd-agent
+commit: 45378c61076697dc4f8da3d8b11306fb76e1cbf1
+date: 2026-05-05T08:49:43+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: add PDF spell parsing CLI command
+Add `parse spells` subcommand for pre-processing D&D 5e spell PDFs into structured JSON.
+
+Features:
+- Parse PDF using PdfPig with layout-aware text extraction
+- Extract and parse spells via existing SpellParser
+- Write structured SpellCollection to JSON output
+- Configurable default PDF path and output directory
+- Page range selection (--page-range option)
+- Dry-run mode for validation (--dry-run option)
+- Progress indicators via Spectre.Console Status spinner
+- Summary table showing parse results and spell level distribution
+
+Files:
+- Created: src/DndAgent.Cli/Commands/ParseSpellsCommand.cs
+- Modified: src/DndAgent.Cli/DndAgent.Cli.csproj (added DndAgent.Pdf reference)
+- Modified: src/DndAgent.Cli/Program.cs (wired parse command)
+- Modified: src/DndAgent.Cli/appsettings.json (added pdf config section)
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
