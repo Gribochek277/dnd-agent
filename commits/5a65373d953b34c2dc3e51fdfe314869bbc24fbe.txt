@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 5a65373d953b34c2dc3e51fdfe314869bbc24fbe
+date: 2026-05-05T05:13:29+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+docs(pdf): add comprehensive README with parser usage guide
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
