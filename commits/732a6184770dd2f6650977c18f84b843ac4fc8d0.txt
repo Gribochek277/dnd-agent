@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 732a6184770dd2f6650977c18f84b843ac4fc8d0
+date: 2026-05-05T05:24:08+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+chore: remove binary PDF and ZIP files from repository
+- Remove 95 PDF files (rules, supplements, adventures, reference books, starter set)
+- Remove 1 ZIP file (Icewind Dale maps)
+- All files from docs/Dungeons & Dragos/ directory cleaned
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
