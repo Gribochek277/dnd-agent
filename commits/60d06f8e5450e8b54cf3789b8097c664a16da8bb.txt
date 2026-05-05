@@ -1,0 +1,33 @@
+repository: serhii/dnd-agent
+commit: 60d06f8e5450e8b54cf3789b8097c664a16da8bb
+date: 2026-05-05T04:41:54+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat(pdf): add spell data parser (PH0-T2)
+Parse spell entries from PDF text extraction results into structured Spell objects.
+
+Models:
+- Spell record with all D&D 5e spell properties (name, level, school, components, etc.)
+- SpellEffects discriminated union (8 types: damage, healing, condition, etc.)
+- Supporting info records (SpellDamageInfo, SpellSaveInfo, SpellAreaInfo, etc.)
+
+Parsing:
+- SpellParser orchestrator (consumes PdfTextExtractionResult from PH0-T1)
+- SpellHeaderDetector: regex-based detection of 3 header formats (full, compact, single-line)
+- SpellFieldExtractor: extracts Casting Time, Range, Components, Duration, Classes
+- SpellEffectParser: parses description text into structured effects (damage, healing, conditions, movement, objects)
+- SpellAggregator: multi-source aggregation with class/subclass union
+
+IO:
+- SpellJsonWriter for JSON serialization with polymorphic effects
+
+Tests:
+- 86 tests covering all parser components (header detection, field extraction, effect parsing, full integration)
+- Build: 0 warnings, 0 errors
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
