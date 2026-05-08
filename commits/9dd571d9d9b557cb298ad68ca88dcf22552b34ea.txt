@@ -1,0 +1,20 @@
+repository: serhii/dnd-agent
+commit: 9dd571d9d9b557cb298ad68ca88dcf22552b34ea
+date: 2026-05-08T19:10:35+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: ToolBuilder default params + test exception type
+- ToolBuilder.BuildDispatchAdapter: apply param.DefaultValue when key
+  is missing from args dict (fixes Create_FromDelegate_WithDefaultParam)
+- PluginExtensionsTests: expect InvalidOperationException instead of
+  FormatException for invalid bool config parsing (matches Microsoft
+  config system behavior)
+
+All 255 tests now pass across 5 test projects.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
