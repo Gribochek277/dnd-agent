@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 5831792f7754ad027f62ee87a66614cb310babb5
+date: 2026-05-08T12:17:20Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/di-interfaces' into 'master'
+fix: address remaining review issues from DI refactoring
+
+See merge request serhii/dnd-agent!26
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
