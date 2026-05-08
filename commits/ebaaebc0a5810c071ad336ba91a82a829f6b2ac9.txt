@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: ebaaebc0a5810c071ad336ba91a82a829f6b2ac9
+date: 2026-05-08T20:37:43Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/streaming-response-not-displayed' into 'master'
+Fix: streaming response not displayed in CLI
+
+See merge request serhii/dnd-agent!28
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
