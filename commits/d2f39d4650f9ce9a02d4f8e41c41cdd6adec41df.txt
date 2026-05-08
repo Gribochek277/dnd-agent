@@ -1,0 +1,36 @@
+repository: serhii/dnd-agent
+commit: d2f39d4650f9ce9a02d4f8e41c41cdd6adec41df
+date: 2026-05-08T11:17:23+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: extract interfaces and wire dependency injection
+Extract interfaces from all major classes and wire DI container:
+
+New interfaces (8):
+- ISession, IMiddlewarePipeline, IAgent, IThinkingTagParser
+- IGameStatePersistence, IDiceRoller, ILoadingSpinner, IStreamingRenderer
+
+DI infrastructure:
+- Added AddServices(IServiceCollection) to IPlugin interface
+- Created ServiceCollectionExtensions for centralized DI registration
+- Refactored Program.cs to use DI container as composition root
+- 4-phase plugin lifecycle: InitializeAsync -> AddServices -> BuildServiceProvider -> SetServiceProvider
+
+Tool handlers converted from static to instance:
+- DndStartCampaign, DndRollDice, DndQueryAdventure
+- DndGetCharacter, DndUpdateCharacter, DndGetGameState
+- DndNarrate, DndLogSession
+
+Removed:
+- ContentFilterPlugin.SetProvider backdoor (resolved from DI)
+- Direct new GameStatePersistence() / new DiceRoller() in tool handlers
+- Redundant dual registrations in DI container
+
+Updated all test files to match new signatures (379 tests pass).
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
