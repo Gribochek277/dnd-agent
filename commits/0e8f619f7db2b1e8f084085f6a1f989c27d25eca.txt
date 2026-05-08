@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 0e8f619f7db2b1e8f084085f6a1f989c27d25eca
+date: 2026-05-08T20:38:52Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/di-interfaces' into 'master'
+refactor: architecture deepening — ToolBuilder, CampaignManager, PluginLifecycle
+
+See merge request serhii/dnd-agent!27
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
