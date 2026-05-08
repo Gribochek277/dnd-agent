@@ -1,0 +1,22 @@
+repository: serhii/dnd-agent
+commit: 2022245094d56435f203bba2c82a995ece48e7a9
+date: 2026-05-08T07:21:35+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: add Open5e SQLite data layer (DndAgent.Data)
+- New DndAgent.Data project with SQLite storage for Open5e JSON fixtures
+- Schema mirrors all 33 Open5e v2 entity types with proper foreign keys
+- FTS5 full-text search for spells, creatures, rules, items, magic items
+- Django fixture loader with batch inserts in single transaction
+- Dapper for efficient data access
+- Whitelist validation on GetCount to prevent SQL injection
+- Open5eDataStore query facade with search and lookup methods
+- 38 unit tests with IClassFixture cleanup pattern
+- Updated docs/open5e-overview.md with SQLite architecture
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
