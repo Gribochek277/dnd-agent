@@ -1,0 +1,15 @@
+repository: serhii/dnd-agent
+commit: 6eb092c4dc7ffc6454ff778d7e7b9735478ac677
+date: 2026-05-08T20:38:38Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'master' into 'feature/di-interfaces'
+# Conflicts:
+#   tests/DndAgent.Plugin.ContentFilter.Tests/ContentFilterPluginTests.cs
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
