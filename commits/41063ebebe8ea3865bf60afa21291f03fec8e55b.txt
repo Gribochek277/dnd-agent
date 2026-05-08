@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 41063ebebe8ea3865bf60afa21291f03fec8e55b
+date: 2026-05-08T12:17:20Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: address remaining review issues from DI refactoring
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
