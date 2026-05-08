@@ -1,0 +1,23 @@
+repository: serhii/dnd-agent
+commit: ed9b5a39c1d3ec4fed9bef3cf981f6fc68555e7f
+date: 2026-05-08T15:08:04+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: address remaining review issues from DI refactoring
+- Add SetServiceProvider to IPlugin interface (remove concrete casts)
+- Cache ContentFilterMiddleware instance in GetMiddlewares()
+- Consistent error handling: both plugins throw when not initialized
+- Replace magic number 100 with int.MaxValue in forbidden words loop
+- Use Random.Shared instead of new Random() for thread safety
+- Add error feedback in DndUpdateCharacter catch block
+- Update ContentFilterPluginTests to expect InvalidOperationException
+- Update test stubs (TestPlugin, ThrowingPlugin) with SetServiceProvider
+
+379/379 tests pass, 0 warnings.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
