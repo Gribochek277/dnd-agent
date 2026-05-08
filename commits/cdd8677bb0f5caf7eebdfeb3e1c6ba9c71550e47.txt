@@ -1,0 +1,20 @@
+repository: serhii/dnd-agent
+commit: cdd8677bb0f5caf7eebdfeb3e1c6ba9c71550e47
+date: 2026-05-08T21:15:46+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: stop spinner and render content in streaming mode
+- Agent.ExecuteStreamingLoopAsync: yield ThinkingEvents() and
+  TextEvents() instead of a single DoneEvent, so the renderer
+  receives the events it needs to update the UI
+- StreamingRenderer: ThinkingEndEvent and TextEndEvent now render
+  accumulated content instead of being no-ops
+- StreamingRenderer: DoneEvent calls EnsureSpinnerStopped() to
+  halt the spinner and flush output
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
