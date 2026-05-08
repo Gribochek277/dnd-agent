@@ -1,0 +1,23 @@
+repository: serhii/dnd-agent
+commit: 9f410d33bdb6a9ddb0d46cedb9bcb90f80ef8600
+date: 2026-05-08T16:55:43+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+refactor: architecture deepening — ToolBuilder, CampaignManager, PluginLifecycle, Session serialization
+- Fix Session serialization/deserialization with full Message round-trip
+- Replace 4-step plugin lifecycle dance with PluginLifecycle module
+- Add ToolBuilder with schema inference from delegate parameters
+- Deepen GameState with validation, AddCharacter, RemoveCharacter, etc.
+- Split persistence into 3 interfaces (IGameStateStore, ICampaignLogWriter, ICharacterSheetWriter)
+- Add CampaignManager as deep orchestration module
+- Refactor DndDMPlugin to use ToolBuilder and CampaignManager
+- Extract shared methods from agent loop (RefreshContext, ProcessRequest, etc.)
+- Delete dead code: 10 tool handler files, GameStatePersistence, IGameStatePersistence
+- Add CONTEXT.md, docs/agents/ setup files
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
