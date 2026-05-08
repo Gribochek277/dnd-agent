@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 78e3f25846f50a6dde5f08117f26511986743fc3
+date: 2026-05-08T04:24:17Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/open5e-sqlite-port' into 'master'
+feat: add Open5e SQLite data layer (DndAgent.Data)
+
+See merge request serhii/dnd-agent!25
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
