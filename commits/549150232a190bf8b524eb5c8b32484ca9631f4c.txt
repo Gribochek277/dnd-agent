@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 549150232a190bf8b524eb5c8b32484ca9631f4c
+date: 2026-05-09T08:27:47+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/combat-system'
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
