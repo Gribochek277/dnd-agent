@@ -1,0 +1,23 @@
+repository: serhii/dnd-agent
+commit: 24094bcead1cf2d2b79691c22a80857765e22b7f
+date: 2026-05-09T04:16:23+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: add state machine foundation with game modes, transition validation, and middleware
+- Add GameMode enum with 10 states (Setup, Combat sub-states, Exploration, Social, Rest sub-states)
+- Add TransitionMatrix for valid/invalid state transition validation
+- Extend GameState with CurrentGameMode and atomic TransitionMode method
+- Add GameStateRequestMiddleware to inject [GAME STATE] block into system prompt
+- Add GameStateResponseMiddleware to validate dnd_transition_state tool calls
+- Add dnd_transition_state tool for LLM-driven state transitions
+- Add GameStateStatusBar for Spectre.Console footer rendering
+- Register middleware in DndDMPlugin.GetMiddlewares()
+- Share single GameState instance between plugin middlewares and CampaignManager
+- Closes #1
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
