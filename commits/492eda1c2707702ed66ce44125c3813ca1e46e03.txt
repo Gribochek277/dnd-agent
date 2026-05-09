@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 492eda1c2707702ed66ce44125c3813ca1e46e03
+date: 2026-05-09T10:11:58+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: show tool calls and sync status bar with game state
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
