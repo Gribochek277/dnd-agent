@@ -1,0 +1,23 @@
+repository: serhii/dnd-agent
+commit: 53afd3609e96c84529c19f166e0f13b3670f66e0
+date: 2026-05-09T08:10:08+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: Complete combat system — tools wiring, middleware injection, status bar
+- Combat tools wired into DndDMPlugin (dnd_start_combat, dnd_next_turn, dnd_end_combat)
+- GameState.Encounter and HasActiveCombat with thread-safe lock
+- Combat state injection into GameStateRequestMiddleware
+- GameStateStatusBar wired into DI via Program.cs
+- CombatTools registered as transient DI service
+- StreamingRenderer status bar footer on DoneEvent
+- Test file rename (Extensions to Properties)
+- Error handling for JSON deserialization and Enum.Parse
+- Markup.Escape for status bar injection prevention
+- 10 new test files (85+ tests) for combat domain, resolver, tools, middleware
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
