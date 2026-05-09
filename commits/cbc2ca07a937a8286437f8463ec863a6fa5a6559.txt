@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: cbc2ca07a937a8286437f8463ec863a6fa5a6559
+date: 2026-05-09T23:01:28Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/open5e-loot-spell-consumption' into 'master'
+feat: Open5E loot system, treasure generation, and spell slot consumption
+
+Closes #5
+
+See merge request serhii/dnd-agent!36
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
