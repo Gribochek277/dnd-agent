@@ -1,0 +1,36 @@
+repository: serhii/dnd-agent
+commit: 05dd1a27c8ac7bba3b7e74e895a2177d30c2e258
+date: 2026-05-09T19:58:07+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: wire up combat resolution tools, middleware injection, status display
+Complete issue #3 acceptance criteria:
+
+Tool definitions (5 new tools in DndDMPlugin.GetTools()):
+- dnd_add_condition — apply conditions with duration tracking
+- dnd_remove_condition — remove conditions by type
+- dnd_resolve_action — resolve attacks with hit/miss/crit, damage, temp HP
+- dnd_use_reaction — consume reaction (OpportunityAttack, Spell, Dodge)
+- dnd_heal — heal participants during combat
+
+Middleware (GameStateRequestMiddleware):
+- Combat block now shows conditions per participant (Poisoned[EndOfTurn])
+- Action economy status (A:1 B:1 R:1)
+- Temp HP indicator
+
+Status bar (GameStateStatusBar):
+- GetConditionDisplayText() maps conditions to abbreviations (B, Ch, Po, etc.)
+- Exhaustion shows as E1-E6
+
+CombatResolver:
+- Added Heal() method for centralized state mutation
+- Wired ExpireEndOfTurnConditions in dnd_next_turn tool
+
+Tests: 96 new tests (144 total new, 835 total across all projects)
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
