@@ -1,0 +1,25 @@
+repository: serhii/dnd-agent
+commit: db1522b600faf92b29f1ecf6ce93d64466674f1f
+date: 2026-05-09T22:23:29+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: add skill checks, rest mechanics, and CharacterState extensions
+- Add CharacterState extensions: AbilityScores, ProficientSkills, ProficientSavingThrows,
+  HitDiceType, MaxHitDice, MaxSpellSlots (all case-insensitive where applicable)
+- Implement ISkillCheckResolver: rolls d20 + ability modifier + proficiency vs DC
+  with advantage/disadvantage support, all 18 D&D 5e skills mapped to abilities
+- Implement IRestResolver: long rest (full HP/spell slot/HD recovery) and
+  short rest (HD spending with d{HitDiceType} + Con mod, min 1 HP per die)
+- Add dnd_skill_check tool: skill check with configurable DC, advantage/disadvantage
+- Add dnd_start_rest tool: long/short rest with state transitions
+- Add dnd_roll_hit_dice tool: spend hit dice for short rest healing
+- Register ISkillCheckResolver and IRestResolver in plugin DI
+- Add 99 tests covering all acceptance criteria
+- Fix pre-existing test failures (tool count, case sensitivity in assertions)
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
