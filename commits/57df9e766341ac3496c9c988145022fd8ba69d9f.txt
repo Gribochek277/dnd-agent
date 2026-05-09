@@ -1,0 +1,22 @@
+repository: serhii/dnd-agent
+commit: 57df9e766341ac3496c9c988145022fd8ba69d9f
+date: 2026-05-09T16:03:31+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: transition game mode on combat start and end
+dnd_start_combat now calls TransitionMode(Combat_Initializing) after
+setting the encounter, so the UI status bar shows combat state instead
+of staying on Exploration.
+
+dnd_end_combat now transitions through Combat_Ended → Exploration
+after ending combat, clearing the combat mode properly.
+
+Also: check TransitionMode return values and report failures,
+add null guard to TransitionStateToolHandler for consistency.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
