@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: e31bb6309d83e95a4aedef34f33f96b1e331a115
+date: 2026-05-09T13:10:18Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/combat-state-transition' into 'master'
+fix: transition game mode on combat start and end
+
+See merge request serhii/dnd-agent!33
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
