@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: d37b9566ca9834c726eeee4766bafae8f28f5cee
+date: 2026-05-09T12:09:26Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/tool-call-visibility-status-bar' into 'master'
+fix: show tool calls and sync status bar with game state
+
+See merge request serhii/dnd-agent!32
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
