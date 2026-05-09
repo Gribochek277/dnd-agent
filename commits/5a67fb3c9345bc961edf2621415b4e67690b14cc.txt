@@ -1,0 +1,25 @@
+repository: serhii/dnd-agent
+commit: 5a67fb3c9345bc961edf2621415b4e67690b14cc
+date: 2026-05-10T01:56:18+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: Open5E loot system, treasure generation, and spell slot consumption
+- Add ItemLoot, TreasureHoard, LootResult types for loot tracking
+- Add TreasureGenerator with DMG Chapter 7 treasure hoard tables by CR
+- Add GenerateIndividualTreasure for per-creature coin drops
+- Add LootSystem with loot_creature tool and roll_treasure tool
+- Add SpellsTool with dnd_get_spells tool for character spell listing
+- Add CombatResolverSpellExtensions for spell slot consumption (upcasting support)
+- Add CreatureLoader for loading creatures from Open5eDataStore
+- Register dnd_loot_creature, dnd_get_spells, dnd_roll_treasure tools in DndDMPlugin
+- Add Open5eDataStore dependency to DndAgent.Plugin.DndDM
+- Add comprehensive tests for all new functionality
+
+Closes #5
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
