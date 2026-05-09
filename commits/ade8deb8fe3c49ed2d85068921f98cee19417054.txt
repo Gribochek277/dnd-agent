@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: ade8deb8fe3c49ed2d85068921f98cee19417054
+date: 2026-05-09T17:25:02Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/combat-resolution' into 'master'
+feat: full combat resolution mechanics (issue #3)
+
+Closes #3
+
+See merge request serhii/dnd-agent!34
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
