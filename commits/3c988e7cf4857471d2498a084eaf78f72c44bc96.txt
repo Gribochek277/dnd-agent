@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 3c988e7cf4857471d2498a084eaf78f72c44bc96
+date: 2026-05-09T01:35:41Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/state-machine-foundation' into 'master'
+feat: add state machine foundation with game modes, transition validation, and middleware
+
+Closes #1
+
+See merge request serhii/dnd-agent!29
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
