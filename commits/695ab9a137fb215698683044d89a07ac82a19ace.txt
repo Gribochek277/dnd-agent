@@ -1,0 +1,32 @@
+repository: serhii/dnd-agent
+commit: 695ab9a137fb215698683044d89a07ac82a19ace
+date: 2026-05-09T18:17:29+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: full combat resolution mechanics (issue #3)
+Add D&D 5e combat resolution: conditions with duration tracking,
+reaction system, temporary HP, and action economy per participant.
+
+New types:
+- ConditionType (15 conditions), ConditionDuration (5 duration types)
+- ConditionInstance (type + duration + source + exhaustion level)
+- DamageType (13 damage types), ActionResult, AttackResolutionResult
+
+CombatResolver extended with:
+- Condition management (add/remove/expire by duration type)
+- Temp HP (non-stacking, absorbs before regular HP)
+- Action economy (actions/bonus actions/reactions per round)
+- ResolveAttack (full attack roll + damage resolution)
+
+CombatParticipantState extended with:
+- Conditions list, TempHP, action economy counters
+
+Tests: 87 new tests across 8 test files (464 total in DndDM.Tests)
+Closes #3
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
