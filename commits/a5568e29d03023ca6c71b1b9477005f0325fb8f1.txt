@@ -1,0 +1,21 @@
+repository: serhii/dnd-agent
+commit: a5568e29d03023ca6c71b1b9477005f0325fb8f1
+date: 2026-05-10T23:17:19+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: Campaign Wizard — 2-page wizard for dnd_start_campaign
+- CampaignBasicsPage: name, adventure book, mode, starting level
+- CharactersPage: character list table with add/finish options
+- CampaignWizardRunner: orchestrates pages with ICampaignManager integration
+- CampaignSetupMiddleware: intercepts dnd_start_campaign tool calls
+- Prefills wizard from LLM tool call parameters
+- Fixed WizardRunner double-ProcessInput bug on last page
+- 27 tests covering all wizard components
+- Closes #16
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
