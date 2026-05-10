@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 84429026078621ed0478ba3efe999d491a0e57ba
+date: 2026-05-10T04:17:29Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/plugin-system-prompt' into 'master'
+feat: add plugin-provided system prompt infrastructure (#9)
+
+Closes #9
+
+See merge request serhii/dnd-agent!37
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
