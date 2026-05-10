@@ -1,0 +1,29 @@
+repository: serhii/dnd-agent
+commit: 959f2eb2856022003e12de72c0cf414d51dff5de
+date: 2026-05-10T06:44:51+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: add plugin-provided system prompt infrastructure (#9)
+Add infrastructure for plugins to contribute a system prompt to the agent session.
+The first plugin returning a non-null, non-empty prompt wins. When no plugin
+provides a prompt, the config file's generic prompt is used (current behavior).
+
+Changes:
+- IPlugin: add GetSystemPrompt() default interface method returning string?
+- PluginLifecycleResult: add SystemPrompt property
+- PluginLifecycle: collect first valid system prompt in InitializeAsync
+- ISession: change SystemPrompt from read-only to mutable with setter
+- Session: change SystemPrompt from init to set
+- Program.cs: apply plugin system prompt after lifecycle initialization
+
+Tests: 9 new tests covering happy path, null/empty/whitespace edge cases,
+no-plugin baseline, and setter mutability.
+
+Closes #9
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
