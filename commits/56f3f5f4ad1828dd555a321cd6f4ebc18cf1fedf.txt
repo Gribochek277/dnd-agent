@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 56f3f5f4ad1828dd555a321cd6f4ebc18cf1fedf
+date: 2026-05-10T21:26:43Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/campaign-wizard' into 'master'
+Campaign Wizard — 2-page wizard for dnd_start_campaign
+
+Closes #16
+
+See merge request serhii/dnd-agent!42
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
