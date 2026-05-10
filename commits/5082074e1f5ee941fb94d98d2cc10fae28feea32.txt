@@ -1,0 +1,22 @@
+repository: serhii/dnd-agent
+commit: 5082074e1f5ee941fb94d98d2cc10fae28feea32
+date: 2026-05-10T15:20:49+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: add EnemyNamingStrategy for unique enemy name disambiguation
+- Add EnemyNamingStrategy.Disambiguate() pure function
+- Takes IReadOnlyList<Combatant>, returns List<Combatant> with unique names
+- Duplicate base names get fantasy suffixes from curated 30-name pool
+- Falls back to 'Name Unknown' when pool is exhausted
+- Null input throws ArgumentNullException
+- Integrates with dnd_start_combat tool handler
+- 18 unit tests covering all acceptance criteria
+
+Closes #12
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
