@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 29af19270cde9d9e85f20d9daca18a8a50d33af7
+date: 2026-05-10T11:08:30Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/combat-end-fix' into 'master'
+fix: capture defeated creatures and sync player HP on combat end
+
+Closes #11
+
+See merge request serhii/dnd-agent!38
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
