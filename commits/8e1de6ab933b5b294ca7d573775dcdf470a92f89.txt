@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 8e1de6ab933b5b294ca7d573775dcdf470a92f89
+date: 2026-05-10T05:23:10+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+docs: update AGENTS.md after ContentFilter removal
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
