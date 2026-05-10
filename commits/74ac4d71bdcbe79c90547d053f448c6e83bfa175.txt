@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 74ac4d71bdcbe79c90547d053f448c6e83bfa175
+date: 2026-05-10T05:07:43+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+chore: remove ContentFilter test plugin
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
