@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 79e8035da9ed1d548cf6a37203ef851d0cd667e0
+date: 2026-05-10T16:01:55Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/characterstate-model-extensions' into 'master'
+feat: extend CharacterState with identity fields
+
+Closes #15
+
+See merge request serhii/dnd-agent!40
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
