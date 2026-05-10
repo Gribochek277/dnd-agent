@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 073e42e72750c42402b7b1e26d576619d70d3da8
+date: 2026-05-10T14:40:22Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/enemy-naming-strategy' into 'master'
+feat: add EnemyNamingStrategy for unique enemy name disambiguation
+
+Closes #12
+
+See merge request serhii/dnd-agent!39
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
