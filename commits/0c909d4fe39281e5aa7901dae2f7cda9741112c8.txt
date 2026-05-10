@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 0c909d4fe39281e5aa7901dae2f7cda9741112c8
+date: 2026-05-10T17:52:56Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/tui-wizard-foundation' into 'master'
+feat: Add DndAgent.Tui — Wizard Runner, Page Interface, Step Bar (#14)
+
+Closes #14
+
+See merge request serhii/dnd-agent!41
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
