@@ -1,0 +1,19 @@
+repository: serhii/dnd-agent
+commit: d24360eec91d6fc1b2d3a8edefe14cf5eea6d0e9
+date: 2026-05-10T20:36:28+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: Add DndAgent.Tui — Wizard Runner, Page Interface, Step Bar
+- Create DndAgent.Tui project with IWizardPage<TResult> interface
+- Implement WizardRunner with page stack, back/next navigation, cancellation
+- Implement StepBar text formatter with ✓/◉/○ step state indicators
+- Add CancellationToken support for graceful cancellation
+- Add 46 unit tests covering all code paths
+- Closes #14
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
