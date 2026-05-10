@@ -1,0 +1,24 @@
+repository: serhii/dnd-agent
+commit: 8f2ebac5e811b1aead63ba09f70f1b25dfa085b4
+date: 2026-05-10T08:54:31+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: capture defeated creatures and sync player HP on combat end (#11)
+- Add CombatEndResultBuilder pure function to capture encounter state
+- Add CombatEndSnapshot sealed record for defeated enemies and player HP
+- Add LootTable and GoldPieces to CombatParticipantState
+- Refactor dnd_end_combat handler to capture snapshot before ending combat
+- Populate GameState.DefeatedCreatures from snapshot for loot tracking
+- Sync player HP from encounter participants back to CharacterState
+- Remove auto-transition to Exploration (single transition to Combat_Ended)
+- Add 13 unit tests for CombatEndResultBuilder
+- Add 5 integration tests for the refactored dnd_end_combat handler
+
+Closes #11
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
