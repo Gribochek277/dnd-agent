@@ -1,0 +1,21 @@
+repository: serhii/dnd-agent
+commit: 802e201e937452a0a3c211ccbf35615261c9146c
+date: 2026-05-10T18:23:12+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: extend CharacterState with identity fields (Race, Background, Alignment, Subclass, Languages, Backstory)
+- Add 6 nullable string properties for D&D 5e character identity
+- Backward compatible with existing JSON-serialized campaigns
+- JSON round-trip tested for all new fields
+- Old JSON deserializes without errors (new fields default to null)
+- Languages stored as string[]? for multiple language support
+- Validate() unchanged — all new fields are optional
+
+Closes #15
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
