@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: c640a5d4886333548880bb11e823df4766d67242
+date: 2026-05-11T22:39:15Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/conditional-subclass-spells-issue-21' into 'master'
+feat: conditional subclass (level 3+) & spell selection pages (#21)
+
+Closes #21
+
+See merge request serhii/dnd-agent!50
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
