@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 1b7d12474eac3fe8493738cf1060a0b65b47e305
+date: 2026-05-11T19:42:26Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: LLM-generated backstory + missing field gap-fill
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
