@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 51d07413d1bdfdb7433f73f4e9f3f020f336db5f
+date: 2026-05-11T06:21:49Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/character-review-llm-stats' into 'master'
+feat: character review page, LLM stat computation, name & alignment
+
+Closes #13 and #19
+
+See merge request serhii/dnd-agent!47
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
