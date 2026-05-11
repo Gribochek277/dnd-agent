@@ -1,0 +1,30 @@
+repository: serhii/dnd-agent
+commit: c47fbb2788b82de32b6d817455898b5f1939fb43
+date: 2026-05-11T04:31:06+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: ability score generation wizard pages (4d6, standard array, point buy)
+Issue #18: Character Wizard pages 4-5 for ability score generation.
+
+- AbilityScoreCalculator: point buy costs (official 5e), floor-division modifiers, 4d6 drop lowest, standard array
+- AbilityScoreMethod enum + AbilityScoreMethodSelection record
+- AbilityScoreMethodPage: wizard page for method selection (4d6/Standard Array/Point Buy)
+- AbilityScoreAssignment record with defensive copy (IReadOnlyDictionary)
+- AbilityScoreAssignmentPage: wizard page for assignment per method
+- 80 new tests (52 base + 28 fix/edge cases) covering all 3 methods, validation, cancellation
+
+Files:
+- AbilityScoreCalculator.cs
+- AbilityScoreMethod.cs + AbilityScoreMethodSelection.cs
+- AbilityScoreMethodPage.cs
+- AbilityScoreAssignment.cs + AbilityScoreAssignmentPage.cs
+- AbilityScoreMethodPageTests.cs
+- AbilityScoreAssignmentPageTests.cs
+- AbilityScoreCalculatorTests.cs
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
