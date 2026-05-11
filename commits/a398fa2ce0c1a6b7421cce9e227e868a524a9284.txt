@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: a398fa2ce0c1a6b7421cce9e227e868a524a9284
+date: 2026-05-11T12:34:46Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+test: add integration tests for D&D DM Mode PRD (#7)
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
