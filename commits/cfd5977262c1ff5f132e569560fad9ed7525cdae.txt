@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: cfd5977262c1ff5f132e569560fad9ed7525cdae
+date: 2026-05-11T22:39:15Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: conditional subclass (level 3+) & spell selection pages (#21)
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
