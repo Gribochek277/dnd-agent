@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 573a52a073dd5e4a8b55a691370e974db7eebf37
+date: 2026-05-11T06:21:49Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: character review page, LLM stat computation, name & alignment
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
