@@ -1,0 +1,21 @@
+repository: serhii/dnd-agent
+commit: 997f8651db3c91f4445f5230592e70da91288ed0
+date: 2026-05-11T05:39:50+03:00
+author: Gribochek277 <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: add D&D DM system prompt (closes #10)
+- Add DmSystemPrompt const with v1.0 versioned DM instructions
+- Override GetSystemPrompt() in DndDMPlugin to return the prompt
+- Prompt covers: role, tone, combat flow, tool discipline, game state,
+  exploration, loot, turn clarity, and skill check conventions
+- Follows LLM system prompt best practices (atomic instructions,
+  sectioned structure, explicit constraints)
+- Add 13 tests covering all acceptance criteria
+- All 1,287 tests pass across 7 test projects
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
