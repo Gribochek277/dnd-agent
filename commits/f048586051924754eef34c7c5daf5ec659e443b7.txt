@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: f048586051924754eef34c7c5daf5ec659e443b7
+date: 2026-05-11T04:02:02Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: integration tests for combat flow, system prompt, state machine
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
