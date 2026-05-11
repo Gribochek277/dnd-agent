@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 013bf4ac5bca707d1e0de752ccc14a88c7f954a1
+date: 2026-05-11T19:42:26Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/backstory-gapfill-issue-20' into 'master'
+feat: LLM-generated backstory + missing field gap-fill
+
+Closes #20
+
+See merge request serhii/dnd-agent!49
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
