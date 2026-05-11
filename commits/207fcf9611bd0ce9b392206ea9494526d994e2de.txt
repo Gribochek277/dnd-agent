@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 207fcf9611bd0ce9b392206ea9494526d994e2de
+date: 2026-05-11T02:43:40Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/dm-system-prompt' into 'master'
+feat: add D&D DM system prompt
+
+Closes #10
+
+See merge request serhii/dnd-agent!45
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
