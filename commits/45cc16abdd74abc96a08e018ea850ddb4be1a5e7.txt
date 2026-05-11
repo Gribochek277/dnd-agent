@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 45cc16abdd74abc96a08e018ea850ddb4be1a5e7
+date: 2026-05-11T04:02:02Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/integration-tests-combat-flow' into 'master'
+feat: integration tests for combat flow, system prompt, state machine
+
+Closes #13
+
+See merge request serhii/dnd-agent!46
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
