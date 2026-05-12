@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 9326c657a91ec90430f82ddb3b6ce21dc14ddda3
+date: 2026-05-12T23:59:27Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/campaign-wizard-interception' into 'master'
+feat: Campaign Wizard tool interception via Agent.ExecuteToolAsync
+
+See merge request serhii/dnd-agent!52
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
