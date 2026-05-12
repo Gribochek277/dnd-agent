@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 8d64bcb63a1e3863dcbf0fce22f8606d1ae42e3b
+date: 2026-05-12T00:49:27Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/post-wizard-intro-narration-issue-22' into 'master'
+feat: post-wizard intro narration & REPL commands (#22)
+
+Closes #22
+
+See merge request serhii/dnd-agent!51
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
