@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 5d84a4e245aa144c198385f6afc860e5da4348cd
+date: 2026-05-12T23:59:27Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: Campaign Wizard tool interception via Agent.ExecuteToolAsync
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
