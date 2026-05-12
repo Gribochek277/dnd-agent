@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 661106566c21fb776eef67f97ec3608b51ce15b7
+date: 2026-05-12T00:49:26Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+feat: post-wizard intro narration & REPL commands (#22)
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
