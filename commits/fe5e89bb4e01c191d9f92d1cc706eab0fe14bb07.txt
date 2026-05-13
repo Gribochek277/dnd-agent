@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: fe5e89bb4e01c191d9f92d1cc706eab0fe14bb07
+date: 2026-05-13T00:18:29Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: include stack traces in errors and escape Spectre markup in wizard
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
