@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 2a5da92b7997f0ce9f92cc86bf788367bb9879cb
+date: 2026-05-13T00:26:17Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/wizard-testability-and-data-integrity' into 'master'
+fix: wizard testability and data integrity
+
+See merge request serhii/dnd-agent!54
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
