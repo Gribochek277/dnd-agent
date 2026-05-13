@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: bb6ee0ef0e92364a259920f41586c78ba8d672da
+date: 2026-05-13T00:26:16Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+fix: wizard testability and data integrity
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
