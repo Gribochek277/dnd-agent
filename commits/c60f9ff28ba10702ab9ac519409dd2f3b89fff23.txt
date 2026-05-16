@@ -1,0 +1,14 @@
+repository: serhii/dnd-agent
+commit: c60f9ff28ba10702ab9ac519409dd2f3b89fff23
+date: 2026-05-16T20:26:47+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+Add species preview panel before selection in character wizard
+Add a reusable SelectionPreview helper that shows a description + traits/features/benefits table panel after selecting an item, requiring Enter to confirm or Escape to go back to the list. Applies to Species, Class, Subclass, and Background selection pages.
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
