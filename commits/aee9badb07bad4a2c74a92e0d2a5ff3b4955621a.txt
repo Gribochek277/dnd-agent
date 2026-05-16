@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: aee9badb07bad4a2c74a92e0d2a5ff3b4955621a
+date: 2026-05-16T16:47:53+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+bmad removed modules
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
