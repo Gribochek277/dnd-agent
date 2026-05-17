@@ -1,0 +1,22 @@
+repository: serhii/dnd-agent
+commit: 968bdee09207febd4a77e4815ed4f6de79f27811
+date: 2026-05-17T07:42:11+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+fix: DnDM combat bug fixes (6 changes)
+- Replace 12 args[key] indexer calls with TryGetValue to prevent KeyNotFoundException
+- Remove SyncTurnTo, add soft turn warning (⚠) in dnd_resolve_action
+- HP auto-sync encounter → character after damage and heal
+- Block dnd_update_character during active combat
+- Add default melee attack for custom creatures (scales with CR)
+- Remove dead SyncTurnTo method from EncounterState
+
+Fixes: KeyNotFoundException on optional tool params, custom creatures with no
+actions, HP desync during combat, turn order corruption from SyncTurnTo
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
