@@ -1,0 +1,32 @@
+repository: serhii/dnd-agent
+commit: 0fa806c179221445a27a2f24c179693a3712c95d
+date: 2026-05-20T02:12:32+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+feat: implement structured combat engine
+- CombatEngine: code-driven turn loop (initiative, surprise, rounds, turns)
+- CombatTurnContext: per-turn state (action economy, movement, flags)
+- IntentParser: LLM-based natural language → structured intent parsing
+- SpellResolver: full spell resolution (attack rolls, saves, AoE, concentration)
+- MovementTracker: abstract distance bands (Engaged/Close/Near/Far/OutOfRange)
+- DamagePipeline: immunity → temp HP → resistance/vulnerability → HP → death
+- CombatParticipantState: extended with Speed, Distances, Resistances,
+  Vulnerabilities, Immunities, ConcentrationSpell, Dodge/Disengage flags
+- Combatant: extended with Speed, Size, Reach, PassivePerception, CanHover
+- EncounterState: extended with SurprisedParticipants, RoundEndCleanup
+- CombatTools.StartCombat: transfers all new properties to participants
+- EncounterState.NextTurn: calls RoundEndCleanup on round wrap
+- 168 tests covering all new functionality
+
+Fixes critical issues:
+- New properties now transferred in CombatTools.StartCombat
+- RoundEndCleanup called on round wrap in NextTurn
+- Damage type used in damage application (immunity/resistance/vulnerability)
+- Turn warning computed before action economy consumed
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
