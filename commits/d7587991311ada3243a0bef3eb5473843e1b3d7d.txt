@@ -1,0 +1,20 @@
+repository: serhii/dnd-agent
+commit: d7587991311ada3243a0bef3eb5473843e1b3d7d
+date: 2026-05-21T15:12:12+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+fix: apply Rage damage bonus from participant conditions during attack resolution
+- Add DamageBonus and DamageDice properties to ConditionInstance for class-feature damage
+- Rage conditions now add flat damage bonus to weapon attacks during attack resolution
+- Flat bonus is NOT doubled on critical hits, but condition dice ARE doubled
+- dnd_add_condition tool accepts damageBonus and damageDice parameters
+- Each condition damage dice is rolled independently
+
+Closes !59
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
