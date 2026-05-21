@@ -1,0 +1,19 @@
+repository: serhii/dnd-agent
+commit: 2959661d8af8918a07129b343e4725d4558e98fa
+date: 2026-05-21T15:17:33+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+fix: add advantage/disadvantage parameters to dnd_resolve_action
+- Add advantage and disadvantage boolean parameters to dnd_resolve_action tool
+- Resolver rolls 2d20 and takes higher (advantage) or lower (disadvantage) value
+- Remove flat ±5 approximation for hidden/dodging/invisible conditions
+- Update system prompt with advantage/disadvantage documentation
+
+Closes !63
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
