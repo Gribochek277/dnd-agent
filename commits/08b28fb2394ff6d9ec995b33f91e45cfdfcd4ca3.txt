@@ -1,0 +1,18 @@
+repository: serhii/dnd-agent
+commit: 08b28fb2394ff6d9ec995b33f91e45cfdfcd4ca3
+date: 2026-05-21T15:15:05+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+fix: show disambiguated enemy target names in combat start result
+- Add Available enemy targets line to dnd_start_combat tool output
+- Helps LLM target correct enemy names when calling dnd_resolve_action
+- Fixes optional parameters using TryGetValue instead of direct dictionary access
+
+Closes !61
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
