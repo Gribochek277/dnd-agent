@@ -1,0 +1,19 @@
+repository: serhii/dnd-agent
+commit: ecd0d2e151e18751576fec8dcd0b86772e3b2552
+date: 2026-05-21T15:13:55+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+fix: include original count in creature lookup error so LLM retries correctly
+- Updated CreatureLookupService error message to include original creature count
+- Added JSON retry template with name and count pre-filled
+- Preserves search suggestions in the error
+- Prevents LLM from losing original count when retrying dnd_start_combat
+
+Closes !60
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
