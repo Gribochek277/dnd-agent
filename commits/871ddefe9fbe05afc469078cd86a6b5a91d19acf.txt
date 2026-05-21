@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 871ddefe9fbe05afc469078cd86a6b5a91d19acf
+date: 2026-05-21T11:57:25Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'fix/extract-end-combat-internal' into 'master'
+fix: extract shared EndCombatInternal and fix auto-resolve state transition
+
+See merge request serhii/dnd-agent!58
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
