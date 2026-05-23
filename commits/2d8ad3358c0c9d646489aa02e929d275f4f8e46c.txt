@@ -1,0 +1,16 @@
+repository: serhii/dnd-agent
+commit: 2d8ad3358c0c9d646489aa02e929d275f4f8e46c
+date: 2026-05-23T01:42:38Z
+author: Serhii Alpatov <kpbillia219@gmail.com>
+branches: master
+
+message:
+Merge branch 'feature/combat-human-turn-control' into 'master'
+fix: distinguish human-controlled character in combat turns
+
+See merge request serhii/dnd-agent!64
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
