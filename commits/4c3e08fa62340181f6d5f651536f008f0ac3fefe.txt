@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 4c3e08fa62340181f6d5f651536f008f0ac3fefe
+date: 2026-05-23T04:27:16+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+Merge feature/structured-combat-engine into master (resolve conflict in CombatResolver.cs)
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
