@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: d0d0507a80ed0b8e71da6c0fe1db9318a85ed3cd
+date: 2026-05-26T00:31:10+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+added localisations
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
