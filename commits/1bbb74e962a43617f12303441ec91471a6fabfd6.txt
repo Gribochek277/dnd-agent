@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 1bbb74e962a43617f12303441ec91471a6fabfd6
+date: 2026-05-25T03:36:31+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+autobattle implpemented
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
