@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 2621b8a8bc1a79cebecc5fde4d8a88927e8e3f77
+date: 2026-05-26T04:57:49+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+added xp tracking
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
