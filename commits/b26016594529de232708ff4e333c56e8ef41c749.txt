@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: b26016594529de232708ff4e333c56e8ef41c749
+date: 2026-05-28T18:26:23+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+[Spec Kit] Register TurnForm services in DI
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
