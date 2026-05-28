@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: d25680b9592fb5aea4c797145b5bb4f67babbf3b
+date: 2026-05-28T18:25:05+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+[Spec Kit] Implement combat turn form (US1+US2) — models, service, renderer, DI, tests
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
