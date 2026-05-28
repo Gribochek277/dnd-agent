@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: e6657b2c4321432c21656b02a25024632ce5265c
+date: 2026-05-28T16:57:21+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+[Spec Kit] Add implementation plan
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
