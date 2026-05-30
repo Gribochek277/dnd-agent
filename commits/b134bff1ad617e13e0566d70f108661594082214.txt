@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: b134bff1ad617e13e0566d70f108661594082214
+date: 2026-05-30T21:15:43+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+feat: finish enemy auto-resolve and flavor
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
