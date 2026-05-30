@@ -1,0 +1,28 @@
+repository: serhii/dnd-agent
+commit: fd4c788235aaa441135d7789f347cd4a6f22eb5c
+date: 2026-05-30T18:04:48+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+repo: capture bmad combat loop migration state
+Capture the current repository state after the latest BMad migration and Epic 1 combat work.
+
+This snapshot includes:
+- BMad planning, sprint, spec, brainstorming, and per-story implementation artifacts for Stories 1.1 through 1.8
+- engine-owned enemy step execution replacing the old general streaming enemy turn path
+- legal enemy option building, bounded enemy decision service, semantic movement endpoint handling, and refreshed-state recomputation between enemy steps
+- character review and NPC interaction fixes plus their regression coverage
+- CLI/runtime/test updates that align combat loop ownership with the new enemy-step architecture
+- current .opencode agent directory reshaping, including deleted legacy agent files and the added agents archive
+- updated nested resources/open5e-api repository pointer
+
+Current BMad progression captured by this commit:
+- Stories 1.1 through 1.7 done
+- Story 1.8 drafted as the next implementation slice
+- Stories 1.9 and 1.10 staged in sprint status as upcoming work
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
