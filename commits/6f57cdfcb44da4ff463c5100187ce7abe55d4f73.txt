@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 6f57cdfcb44da4ff463c5100187ce7abe55d4f73
+date: 2026-05-30T18:33:13+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+fix: close story 1.8 review findings
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
