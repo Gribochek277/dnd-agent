@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: d3bb344f52f8cef7bd425e7ef9abd9fcec58ee02
+date: 2026-05-30T18:07:39+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+style: normalize cli whitespace formatting
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
