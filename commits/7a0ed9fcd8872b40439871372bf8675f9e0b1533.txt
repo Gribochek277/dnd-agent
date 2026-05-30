@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 7a0ed9fcd8872b40439871372bf8675f9e0b1533
+date: 2026-05-31T02:12:51+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+feat: expose enemy step loop diagnostics
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
