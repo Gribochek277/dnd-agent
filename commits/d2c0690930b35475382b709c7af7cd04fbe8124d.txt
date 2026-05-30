@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: d2c0690930b35475382b709c7af7cd04fbe8124d
+date: 2026-05-31T01:47:36+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+feat: end combat correctly after flee or surrender
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
