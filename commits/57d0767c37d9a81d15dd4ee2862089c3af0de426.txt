@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: 57d0767c37d9a81d15dd4ee2862089c3af0de426
+date: 2026-05-30T23:41:16+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+feat: resolve enemy flee mechanically
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
