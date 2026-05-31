@@ -1,0 +1,13 @@
+repository: serhii/dnd-agent
+commit: ce463c62c3736eb1fcc299d0d180973ae2faf385
+date: 2026-05-31T20:17:05+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+feat: resolve enemy turns without silent auto-skip
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
