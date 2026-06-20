@@ -1,0 +1,22 @@
+repository: serhii/dnd-agent
+commit: 8ac22a2fb16748da7b6a2dea85e39b02f579161a
+date: 2026-06-20T21:57:58+03:00
+author: Serhii <36171312+Gribochek277@users.noreply.github.com>
+branches: master
+
+message:
+refactor: restructure DndDM plugin into Interface/Implementation/Models per feature
+- Move all handlers, services, and wizard pages into per-feature
+  Interface/, Implementation/, and Models/ subfolders.
+- Remove flat root-level files and old Handlers/Combat/, Handlers/Campaign/.
+- Remove DndAgent.Pdf test project.
+- Remove stale log files and tools scripts.
+- Update Runtime interfaces (IAgent, ISession, IPlugin, middleware) to
+  use consistent naming and access patterns.
+- Update all test files to match new namespaces and file locations.
+- Fix typo in CampaignWizardResult (Star/tingLevel -> StartingLevel).
+
+---
+Source code is NOT published on GitHub.
+README (if any) is available in the repo root.
+If you need the code, email: sergeyalpatov1@gmail.com
